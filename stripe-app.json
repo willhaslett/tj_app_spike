@@ -1,22 +1,14 @@
 {
     "id": "com.example.tj",
     "version": "0.0.1",
-    "name": "TJ App Spike",
+    "name": "TaxJar",
     "icon": "",
     "permissions": [],
     "ui_extension": {
         "views": [
             {
                 "viewport": "stripe.dashboard.home.overview",
-                "component": "Home"
-            },
-            {
-                "viewport": "stripe.dashboard.customer.list",
-                "component": "Customers"
-            },
-            {
-                "viewport": "stripe.dashboard.customer.detail",
-                "component": "CustomerDetails"
+                "component": "App"
             }
         ],
         "content_security_policy": {
