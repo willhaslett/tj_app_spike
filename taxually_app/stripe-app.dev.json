@@ -1,0 +1,17 @@
+{
+  "extends": "stripe-app.json",
+  "id": "com.taxually.tax-filings-v1",
+  "ui_extension": {
+    "content_security_policy": {
+      "connect-src": [
+        "https://taxually-prod-westeurope-stripe-app.azurewebsites.net/api/",
+        "https://taxually-test-westeurope-stripe-app.azurewebsites.net/api/"
+      ]
+    }
+  },
+  "constants": {
+    "CONTACT_US_URL": "https://www.taxually.com/contact-us",
+    "BACKEND_API_URL_LIVE": "https://taxually-prod-westeurope-stripe-app.azurewebsites.net",
+    "BACKEND_API_URL_TEST": "https://taxually-test-westeurope-stripe-app.azurewebsites.net"
+  }
+}

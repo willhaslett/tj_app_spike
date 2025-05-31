@@ -1,0 +1,10 @@
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="12" fill="#F5F5F5"/>
+<g opacity="0.5">
+<path d="M0 3H16V9H0V3Z" fill="#F6F9FC"/>
+<path d="M8 8C6.89543 8 6 7.10457 6 6C6 6 10 6 10 6C10 7.10457 9.10457 8 8 8Z" fill="#217AB7"/>
+<path d="M8 4C6.89543 4 6 4.89543 6 6C6 6 10 6 10 6C10 4.89543 9.10457 4 8 4Z" fill="#FCD669"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 3H0V9H1V3ZM15 3V9H16V3H15Z" fill="#EAEEF3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 3V2C16 0.89543 15.1046 0 14 0H2C0.89543 0 0 0.89543 0 2V3H16ZM0 9V10C0 11.1046 0.89543 12 2 12H14C15.1046 12 16 11.1046 16 10V9H0Z" fill="#E25950"/>
+</g>
+</svg>

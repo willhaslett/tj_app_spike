@@ -1,0 +1,11 @@
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="12" fill="#F5F5F5"/>
+<g opacity="0.5">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 0C0.895431 0 0 0.895431 0 2V6H16V2C16 0.89543 15.1046 0 14 0H2Z" fill="#FCD669"/>
+<path d="M15 6V2C15 1.44772 14.5523 1 14 1H2C1.44772 1 1 1.44772 1 2V6H0V2C0 0.89543 0.89543 0 2 0L14 0C15.1046 0 16 0.89543 16 2V6H15Z" fill="#A68527" fill-opacity="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6V9H16V6H0Z" fill="#43458B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 9V10C0 11.1046 0.895431 12 2 12H14C15.1046 12 16 11.1046 16 10V9H0Z" fill="#E25950"/>
+<path d="M6.88193 4.25H5.70801C6.09367 3.36733 6.97429 2.75034 7.99915 2.75C8.89232 2.7497 9.71779 3.22592 10.1646 3.99928C10.2118 4.08099 10.2541 4.1647 10.2913 4.25H9.11807C8.8366 3.93528 8.43122 3.74986 7.99949 3.75C7.55542 3.75015 7.15648 3.94325 6.88193 4.25V4.25Z" fill="#B1372F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 7.5C8.82843 7.5 9.5 6.82843 9.5 6C9.5 5.17157 8.82843 4.5 8 4.5C7.17157 4.5 6.5 5.17157 6.5 6C6.5 6.82843 7.17157 7.5 8 7.5Z" fill="white"/>
+</g>
+</svg>

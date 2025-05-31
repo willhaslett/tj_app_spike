@@ -1,0 +1,98 @@
+{
+  "id": "com.example.taxually",
+  "version": "1.1.0",
+  "name": "Taxually",
+  "icon": "./favicon.png",
+  "permissions": [
+    {
+      "permission": "customer_read",
+      "purpose": "Read customer details"
+    },
+    {
+      "permission": "invoice_read",
+      "purpose": "Read invoice data"
+    },
+    {
+      "permission": "order_read",
+      "purpose": "Read order details"
+    },
+    {
+      "permission": "tax_rate_read",
+      "purpose": "Read tax rates"
+    },
+    {
+      "permission": "tax_settings_read",
+      "purpose": "Read tax settings"
+    },
+    {
+      "permission": "tax_settings_write",
+      "purpose": "Write tax settings"
+    },
+    {
+      "permission": "tax_calculations_and_transactions_read",
+      "purpose": "Read tax calculations and transaction details"
+    },
+    {
+      "permission": "user_email_read",
+      "purpose": "Read user email"
+    },
+    {
+      "permission": "webhook_read",
+      "purpose": "Access webhooks"
+    },
+    {
+      "permission": "event_read",
+      "purpose": "Access account authorization details"
+    },
+    {
+      "permission": "credit_note_read",
+      "purpose": "Read credit notes"
+    },
+    {
+      "permission": "quote_read",
+      "purpose": "Read credit notes"
+    },
+    {
+      "permission": "charge_read",
+      "purpose": "Access refund details"
+    },
+    {
+      "permission": "report_runs_and_report_types_read",
+      "purpose": "Read report types and runs"
+    },
+    {
+      "permission": "terminal_location_read",
+      "purpose": "Access location details"
+    },
+    {
+      "permission": "tax_liability_read",
+      "purpose": "Generating tax summary"
+    },
+    {
+      "permission": "file_read",
+      "purpose": "Read files"
+    }
+  ],
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "stripe.dashboard.drawer.default",
+        "component": "App"
+      }
+    ],
+    "content_security_policy": {
+      "connect-src": [
+        "https://taxually-prod-westeurope-stripe-app.azurewebsites.net/api/",
+        "https://taxually-test-westeurope-stripe-app.azurewebsites.net/api/"
+      ],
+      "image-src": [],
+      "purpose": "These URLs allow the app to contact Taxually for retrieving tax filing information"
+    }
+  },
+  "constants": {
+    "BACKEND_API_URL_LIVE": "https://taxually-prod-westeurope-stripe-app.azurewebsites.net",
+    "BACKEND_API_URL_TEST": "https://taxually-test-westeurope-stripe-app.azurewebsites.net",
+    "CONTACT_US_URL": "https://www.taxually.com/contact-us"
+  },
+  "distribution_type": "public"
+}
